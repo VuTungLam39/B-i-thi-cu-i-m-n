@@ -1,0 +1,40 @@
+.background {
+  overflow: hidden;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 0;
+}
+
+h2 {
+  font-size: 64px !important;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+}
+
+.email {
+  color: #00a3ff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.experience {
+  display: flex;
+}
+
+.experience span:first-child {
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+}
+
+.experience span:nth-child(2) {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}

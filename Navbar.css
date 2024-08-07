@@ -1,0 +1,38 @@
+/* Background */
+.background{
+    background: #F5F5DCDC;
+    background-image: url(Image/Background.png);
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+.active{
+    background-color: #00a3ff;
+    height: 45px;
+    width: 145px;
+    color: white !important;
+    padding: 3px 12px;
+    font-weight: 700;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-link{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-link{
+    li{
+        margin: 0 10px;
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+} 
